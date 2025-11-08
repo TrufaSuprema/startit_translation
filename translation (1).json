@@ -1,0 +1,580 @@
+{
+  "home": {
+    "hero": {
+      "title": "Temporal, no permanente",
+      "highlighted": "Temporal",
+      "description": "TempVoice mantiene su servidor Discord organizado creando canales de voz temporales que desaparecen tan pronto como estén vacíos."
+    },
+    "instruction": {
+      "channels": {
+        "title": "¿Qué es un canal temporal?",
+        "description": "Un canal de voz temporal se crea automáticamente cuando alguien se une a un 'Canal Maestro' y se borra cuando salen del canal."
+      },
+      "interface": {
+        "title": "¡Deja que tus miembros se moderen!",
+        "description": "Los canales de voz temporales son controlados y moderados por el usuario que los creó."
+      }
+    },
+    "quote": {
+      "title": "¡Gracias por su interés en TempVoice!",
+      "description": "¡Esta aplicación cambia la manera en que usas Discord! Desde 2021, he estado trabajando con la opinión de la comunidad para hacer que cada servidor de Discord sea más eficiente y agradable.",
+      "button": "Únete a nuestro Discord"
+    }
+  },
+  "setup": {
+    "hero": {
+      "title": "¿Cómo puedo configurar TempVoice?",
+      "description": "Usar TempVoice no podría ser más fácil. Invita a la aplicación a tu servidor de Discord y usa el comando /setup. TempVoice creará los canales básicos necesarios para generar y administrar canales temporales.",
+      "button": "Ver Tutoriales"
+    }
+  },
+  "premium": {
+    "hero": {
+      "title": "Personaliza más con Premium",
+      "description": "Desbloquea todo el potencial de tu servidor de Discord con acceso ilimitado a todas las funciones. Cancela en cualquier momento."
+    },
+    "features": {
+      "title": "Más Personalización. Más Libertad.",
+      "description": "Haz que TempVoice sea tuyo y disfruta de la libertad de personalizar el bot exactamente como quieras, sin límites."
+    },
+    "modal": {
+      "features": {
+        "base": {
+          "title": "TempVoice Premium",
+          "feature_1": "Interfaces Personalizadas",
+          "feature_2": "Registro de Moderación",
+          "feature_3": "Sin Comandos Restringidos por Votos",
+          "feature_4": "Canales Maestros Ilimitados"
+        },
+        "custom": {
+          "title": "Tu Propia Marca",
+          "feature_1": "TempVoice Premium",
+          "feature_2": "Alojamiento Separado",
+          "feature_3": "Indicador de Actividad para Canales",
+          "feature_4": "Avatar, Nombre y Estado Personalizados"
+        },
+        "billing_cycle": {
+          "monthly": "mensualmente",
+          "yearly": "anualmente"
+        },
+        "amount": "Para {{amount}} servidores",
+        "discount": {
+          "title": "Obtén 2 meses gratis",
+          "description": "Ahorra un 16% con una facturación anual"
+        },
+        "payments": {
+          "button": "Gestionar Pagos"
+        }
+      },
+      "options": {
+        "activate": {
+          "title": "Activar Premium",
+          "select": {
+            "prompt": "Elige un Servidor"
+          },
+          "description": "Activa premium en el servidor donde quieras usar TempVoice Premium."
+        },
+        "token": {
+          "title": "Token",
+          "select": {
+            "prompt": "Ingresa un token para instalar o reiniciar tu bot"
+          },
+          "description": "Al introducir un token, usted acepta nuestros Términos de Servicio. Nunca compartas este token con nadie y trátalo como una contraseña."
+        },
+        "appearance": {
+          "title": "Apariencia",
+          "select": {
+            "prompt": "Creando Canales Temporales"
+          },
+    "description": "Haz clic en la vista previa para visitar el Portal de Desarrolladores de Discord y cambiar su nombre, ícono, banner y sección 'Acerca de mí'. La actualización del estado puede tardar hasta 5 minutos."
+    },
+    "invite": {
+      "title": "Invitación",
+      "button": "Agregar a tu servidor",
+      "description": "Tu TempVoice está listo para ser invitado a tu servidor. Asegúrate de que Premium esté activado y que el bot público haya sido eliminado."
+    },
+    "subscribe": {
+      "button": "Continuar a Stripe"
+    },
+    "upgrade": {
+      "title": "Mejorar a 'Tu Propia Marca'",
+      "description": "Cuando actualices tu plan Premium, la diferencia entre tu plan actual y el nuevo se agregará a tu próxima factura. Tu ciclo de facturación no cambiará. El cargo adicional se prorrateará según la parte no utilizada del período de facturación actual. A partir de tu próxima renovación, tu suscripción continuará al precio regular del plan mejorado.",
+      "confirmation": "Autorizo a TempVoice a actualizarme.",
+      "button": {
+        "upgrade": "¡Actualizar ahora!",
+        "cancel": "Cancelar"
+      }
+    }
+    }
+    },
+    "required": "PREMIUM"
+    },
+    "dashboard": {
+    "navigation": {
+      "greet_user": "¡Hola, {{user}}!",
+      "start_page": "Página de Inicio",
+      "server_selection": "Selección de Servidor",
+      "server_settings": "Configuración del Servidor",
+      "creator_settings": "Configuración de Canales Maestros",
+      "premium": {
+        "active": "Premium Activo",
+        "inactive": "Sin Premium",
+        "branding_tempvoice": "Marca TempVoice",
+        "branding_custom": "Tu Propia Marca"
+      }
+    },
+    "unsaved_changes": {
+      "description": "Cuidado: ¡tienes cambios sin guardar!",
+      "button": {
+        "reset": "Restablecer",
+        "save": "Guardar Cambios"
+      }
+    },
+    "guild": {
+      "language": {
+        "title": "Idioma de TempVoice",
+        "description": "Cambia el idioma de la aplicación de Discord"
+      },
+      "creator": {
+        "title": "Canales Maestros",
+        "description": "Canales de voz estándar que crean canales de voz temporales cuando un usuario se une.",
+        "create": {
+          "title": "¡Agregar un nuevo Canal Maestro!",
+          "description": "Esto creará un nuevo canal en tu servidor de Discord, usado para generar canales temporales."
+        },
+        "delete": {
+          "title": "¿Eliminar este Canal Maestro?",
+          "description": "Esto eliminará el canal de tu servidor de Discord y quitará todas sus configuraciones. Esta acción no se puede deshacer."
+        },
+        "button": {
+          "create": "Crear",
+          "delete": "Eliminar",
+          "cancel": "Cancelar"
+        },
+        "premium": {
+          "title": "Límite de Canales Maestros Alcanzado",
+          "description": "Necesitas TempVoice Premium para configurar Canales Maestros ilimitados."
+        }
+      },
+      "interface": {
+        "preview": {
+          "title": "Vista Previa de la Interfaz",
+          "description": "Puedes interactuar con la Interfaz de TempVoice para personalizarla. Algunas funciones requieren Premium."
+        },
+        "name": {
+          "title": "Nombre del Webhook",
+          "description": "Elige un nombre claro y reconocible, por ejemplo el nombre de tu servidor de Discord."
+        },
+        "avatar": {
+          "title": "Avatar del Webhook",
+          "description": "Establece una imagen de avatar, como el ícono de tu servidor u otro gráfico apropiado."
+        },
+        "title": {
+          "title": "Título",
+          "description": "Proporciona un título corto y significativo, por ejemplo el nombre de tu servidor."
+        },
+        "description": {
+          "title": "Descripción",
+          "description": "Escribe una descripción que explique el propósito y funcionalidad de la Interfaz de TempVoice."
+        },
+        "attachment": {
+          "title": "Adjunto",
+          "description": "Inserta la URL de una imagen para mostrar como adjunto."
+        },
+        "footer": {
+          "title": "Pie de Página",
+          "description": "Agrega un pie de página que dé contexto o instrucciones relacionadas con los botones."
+        },
+        "color": {
+          "title": "Color",
+          "description": "Especifica un código de color HEX para personalizar el color de acento del embed."
+        },
+        "buttons": {
+          "description": "Haz clic en un botón para desactivarlo. Intenta arrastrarlos para reorganizarlos."
+        },
+        "send": {
+          "title": "Enviar Interfaz",
+          "select": {
+            "prompt": "Selecciona un Canal de Texto"
+          },
+          "description": "Envía la Interfaz personalizada de TempVoice a un canal de texto de tu elección. Recomendamos un canal donde nadie más pueda escribir.",
+          "status": {
+            "success": "La interfaz ha sido enviada a {{channel}}",
+            "failed": "No se pudo enviar la interfaz. Por favor, intenta más tarde."
+          }
+        }
+      }
+    }
+  "creator": {
+    "tab": {
+      "overview": "Resumen",
+      "permissions": "Permisos",
+      "moderation": "Moderación",
+      "others": "Otros"
+    },
+    "voice_role": {
+      "title": "Rol de Voz Temporal",
+      "select": {
+        "prompt": "Selecciona un Rol"
+      },
+      "mode": {
+        "everyone": "Todos los usuarios recibirán el 'Rol de Voz' al unirse a un canal temporal.",
+        "owner": "Solo el propietario del canal temporal recibirá el 'Rol de Voz'."
+      },
+      "description": "Asigna un rol a los usuarios cuando estén en un canal de voz temporal."
+    },
+    "recover_owner_settings": {
+      "title": "Recuperar Configuración del Propietario",
+      "select": {
+        "prompt": "Selecciona una Opción",
+        "name": "Nombre",
+        "limit": "Límite de Usuarios",
+        "lists": "Usuarios Confiables y Bloqueados",
+        "privacy": "Modo de Privacidad (Bloqueado o Oculto)"
+      },
+      "description": "Recupera un canal temporal con la misma configuración que tenía antes de ser eliminado, incluyendo nombre, permisos y límite de usuarios."
+    },
+    "privacy_mode": {
+      "title": "Modo de Privacidad del Canal Temporal",
+      "select": {
+        "prompt": "Selecciona una Opción",
+        "public": "Público",
+        "locked": "Bloqueado",
+        "hidden": "Oculto"
+      },
+      "description": "Elige si los canales temporales serán públicos, bloqueados u ocultos para otros usuarios por defecto."
+    },
+    "position": {
+      "title": "Posición del Canal Temporal",
+      "select": {
+        "prompt": "Selecciona una Opción",
+        "top": "En la parte superior",
+        "below": "Justo debajo del Canal Maestro",
+        "bottom": "En la parte inferior"
+      },
+      "description": "Establece dónde se creará el canal temporal en relación con el Canal Maestro al que se une el usuario."
+    },
+    "permissions": {
+      "title": "Permisos del Canal Temporal",
+      "select": {
+        "prompt": "Selecciona una Opción",
+        "category": "Sincronizar desde Categoría",
+        "creator": "Sincronizar desde Canal Maestro",
+        "off": "No Sincronizar"
+      },
+      "warning": {
+        "title": "Debes saber esto:",
+        "description": {
+          "problem": "Los permisos 'Conectar', 'Ver Canal' y 'Enviar Mensajes' no pueden sincronizarse para @everyone, ya que están reservados para gestionar el bloqueo y la visibilidad del canal.",
+          "solution": "Si deseas restringir el acceso de @everyone a los canales temporales, utiliza los 'Roles de Acceso al Canal Temporal'."
+        }
+      },
+      "description": "Elige desde dónde sincronizar los permisos al crear un canal temporal."
+    },
+    "owner_permissions": {
+      "title": "Permisos del Propietario del Canal Temporal",
+      "select": {
+        "prompt": "Selecciona Permisos",
+        "create_invite": "Crear Invitación",
+        "manage_channels": "Gestionar Canales",
+        "manage_roles": "Gestionar Permisos",
+        "screen_share": "Video",
+        "use_voice_activity": "Usar Actividad de Voz",
+        "priority_speaker": "Altavoz Prioritario",
+        "move_members": "Mover Miembros"
+      },
+      "description": "Otorga permisos adicionales a los propietarios de canales temporales (por ejemplo, Gestionar Canal, Mover Miembros) mientras estén en control del canal."
+    },
+    "moderation_log": {
+      "title": "Registro de Moderación",
+      "description": "Envía mensajes a un canal de texto usando una URL de webhook de Discord para registrar acciones como creación, eliminación y modificación de canales temporales."
+    },
+    "max_channels": {
+      "title": "Máximo de Canales Temporales",
+      "description": "Limita el número máximo de canales temporales que pueden existir al mismo tiempo."
+    },
+    "greeting": {
+      "title": "Mensaje de Bienvenida del Canal Temporal",
+      "button": "Ver Configuración",
+      "mode": {
+        "silent": "El mensaje se enviará en silencio sin ningún @ping",
+        "ping": "El mensaje podría activar un sonido de @ping",
+        "interface": "Enviar una Interfaz de TempVoice"
+      },
+      "description": "Envía un mensaje al chat de texto del canal de voz temporal cuando se crea, opcionalmente incluyendo una Interfaz de TempVoice."
+    },
+    "features": {
+      "title": "Activar Funciones",
+      "select": {
+        "prompt": "Selecciona Funciones",
+        "chat": {
+          "title": "Chat Dentro del Canal de Voz",
+          "description": "El canal de texto integrado para un canal de voz."
+        },
+        "lfp": {
+          "title": "Buscando Personas",
+          "description": "/voice lfp"
+        },
+        "thread": {
+          "title": "Creando Chat Temporal",
+          "description": "/voice thread"
+        },
+        "waiting": {
+          "title": "Creando Salas de Espera",
+          "description": "/voice waiting"
+        },
+        "locking_chat": {
+          "title": "Bloquear Solo el Chat de Voz",
+          "description": "/voice privacy"
+        },
+        "locking": {
+          "title": "Bloquear Canal",
+          "description": "/voice privacy"
+        },
+        "hiding": {
+          "title": "Ocultar Canal",
+          "description": "/voice privacy"
+        },
+        "close": {
+          "title": "Eliminar Canal Forzosamente",
+          "description": "/voice delete"
+        },
+        "claim": {
+          "title": "Reclamar Canales",
+          "description": "/voice claim"
+        },
+        "transfer": {
+          "title": "Transferir Canales",
+          "description": "/voice transfer"
+        },
+        "kick": {
+          "title": "Expulsar/Desconectar Usuario",
+          "description": "/voice user kick"
+        },
+        "invite": {
+          "title": "Invitar Usuarios",
+          "description": "/voice user invite"
+        },
+        "users": {
+          "title": "Confiar / Bloquear Usuarios",
+          "description": "/voice user trust & /voice user block"
+        },
+        "name": {
+          "title": "Cambiar Nombre del Canal",
+          "description": "/voice name"
+        },
+        "limit": {
+          "title": "Cambiar Límite de Usuarios del Canal",
+          "description": "/voice user limit"
+        },
+        "region": {
+          "title": "Cambiar Región del Canal",
+          "description": "/voice region"
+        },
+        "bitrate": {
+          "title": "Cambiar Bitrate del Canal",
+          "description": "/voice bitrate"
+        }
+      },
+      "mode": {
+        "owner": {
+          "title": "Gestión por el Propietario Activada",
+          "description": "Los canales temporales pueden ser gestionados por los usuarios que los crearon."
+        },
+        "none": {
+          "title": "Gestión por el Propietario Desactivada",
+          "description": "Los canales temporales no pueden ser gestionados por los usuarios que los crearon."
+        }
+      },
+      "description": "Elige qué funciones pueden usar los propietarios de canales temporales mientras estén en control del canal."
+    },
+    "censor": {
+      "title": "Censurar Nombres de Canales",
+      "description": "Censura automáticamente palabras inapropiadas en los nombres de canales temporales.",
+      "input": {
+        "prompt": "Escribe una palabra y presiona ↵"
+      },
+      "replacement": {
+        "title": "Símbolo de Reemplazo",
+        "description": "Símbolo usado para reemplazar los caracteres de una palabra censurada (por ejemplo, I #### this)."
+      },
+      "protection": {
+        "title": "Protección Contra Evasión",
+        "description": "Reemplaza caracteres no latinos que se parecen a letras latinas (por ejemplo, cirílico) por sus equivalentes reales."
+      },
+      "button": "Ver Configuración"
+    }
+    "bitrate": {
+      "title": "Bitrate del Canal Temporal",
+      "select": {
+        "best": "Máximo posible",
+        "default": "64kbps"
+      },
+      "description": "Elige el bitrate de audio para los canales de voz temporales. Los valores más altos mejoran la calidad pero pueden estar limitados por el nivel de impulso de tu servidor."
+    },
+    "access_roles": {
+      "title": "Roles de Acceso al Canal Temporal",
+      "select": {
+        "prompt": "Selecciona Roles"
+      },
+      "mode": {
+        "locked": "Los usuarios sin un 'Rol de Acceso' pueden ver pero no unirse a canales temporales.",
+        "hidden": "Los usuarios sin un 'Rol de Acceso' no pueden ver los canales temporales."
+      },
+      "description": "Selecciona los roles requeridos para ver o acceder a canales temporales, anulando el permiso predeterminado de @everyone."
+    },
+    "name": {
+      "title": "Nombre del Canal Temporal",
+      "description": "Establece el formato de nombre predeterminado para los canales temporales cuando se crean.",
+      "input": {
+        "prompt": "Ejemplo: canal de {OWNER_NICKNAME} #{NUMBER}"
+      },
+      "waiting": {
+        "title": "Nombre de la Sala de Espera",
+        "description": "Establece el formato de nombre utilizado para las salas de espera.",
+        "input": {
+          "prompt": "Ejemplo: Pide a {OWNER_NICKNAME} que se una ↑"
+        }
+      }
+    },
+    "limit": {
+      "title": "Límite de Usuarios del Canal Temporal",
+      "description": "Establece el límite de usuarios predeterminado para los canales temporales cuando se crean.",
+      "range": {
+        "title": "Rango de Límite de Usuarios",
+        "description": "Establece el límite mínimo y máximo de usuarios que el propietario del canal temporal puede configurar."
+      }
+    },
+    "category": {
+      "title": "Categoría del Canal Temporal",
+      "select": {
+        "prompt": "Selecciona una Categoría"
+      },
+      "description": "Elige la categoría donde se crearán los canales temporales.",
+      "fallbacks": {
+        "title": "Categorías Alternativas del Canal Temporal",
+        "select": {
+          "prompt": "Selecciona Categorías"
+        },
+        "description": "Elige categorías que se usarán como alternativa cuando la categoría principal alcance el límite de 50 canales de Discord."
+      }
+    },
+    "placeholder": {
+      "owner": {
+        "title": "Propietario",
+        "OWNER_USERNAME": "Nombre de usuario del propietario del canal",
+        "OWNER_NICKNAME": "Apodo del propietario del canal",
+        "OWNER_CREATED": "Fecha en que el usuario creó su cuenta (DD/MM/AAAA)",
+        "OWNER_JOINED": "Fecha en que el usuario se unió al servidor (DD/MM/AAAA)",
+        "OWNER_MENTION": "La mención @ del propietario"
+      },
+      "roles": {
+        "title": "Rol del Propietario",
+        "ROLE_HIGHEST": "Nombre del rol más alto que tiene el usuario",
+        "ROLE_HOIST": "Nombre del rol más alto mostrado en la lista de miembros"
+      },
+      "counter": {
+        "title": "Contador"
+      },
+      "activity": {
+        "title": "Actividad",
+        "ACTIVITY_NAME": "Título del juego que está jugando el propietario",
+        "ACTIVITY_NAME_MAJORITY": "Título del juego que juega la mayoría",
+        "ACTIVITY_DETAILS": "Detalles de una actividad",
+        "ACTIVITY_STATE": "Estado de una actividad",
+        "ACTIVITY_EMOJI": "Emoji de una actividad"
+      },
+      "ids": {
+        "title": "IDs",
+        "GUILD_ID": "ID del servidor de Discord",
+        "CHANNEL_ID": "ID del canal",
+        "OWNER_ID": "ID del propietario del canal"
+      },
+      "miscellaneous": {
+        "title": "Misceláneo",
+        "CUSTOM": "Muestra el nombre personalizado del canal que eligió el propietario",
+        "RANDOM": "Muestra una palabra aleatoria de una lista predefinida",
+        "PRIVACY": "Muestra el modo de privacidad (público/bloqueado/oculto) del canal"
+      },
+      "settings": {
+        "custom": {
+          "input": {
+            "prompt": "Por defecto: {OWNER_NICKNAME}"
+          },
+          "description": "Elige un texto predeterminado cuando el propietario del canal no haya establecido un nombre personalizado. Este marcador puede incluir otros marcadores."
+        },
+        "random": {
+          "input": {
+            "prompt": "Escribe una palabra y presiona ↵"
+          },
+          "description": "Establece una lista de palabras que se usarán aleatoriamente. Este marcador puede incluir otros marcadores."
+        },
+        "role": {
+          "input": {
+            "prompt": "¿Quizás elegir un emoji?"
+          },
+          "description": "Elige un texto predeterminado cuando el propietario del canal no tenga roles."
+        },
+        "activity": {
+          "name": {
+            "description": "Elige un texto predeterminado cuando el propietario del canal o la mayoría no tenga actividad."
+          },
+          "state": {
+            "description": "Elige un texto predeterminado cuando el propietario del canal no tenga estado de actividad."
+          },
+          "emoji": {
+            "description": "Elige un texto predeterminado cuando el propietario del canal no tenga emoji de actividad."
+          },
+          "details": {
+            "description": "Elige un texto predeterminado cuando el propietario del canal no tenga detalles de actividad."
+          }
+        },
+        "privacy": {
+          "unlocked": {
+            "title": "Canal Público",
+            "description": "Elige un texto para mostrar cuando el canal temporal sea público."
+          },
+          "locked": {
+            "title": "Canal Bloqueado",
+            "description": "Elige un texto para mostrar cuando el canal temporal esté bloqueado."
+          },
+          "hidden": {
+            "title": "Canal Invisible",
+            "description": "Elige un texto para mostrar cuando el canal temporal esté oculto."
+            }
+          }
+        }
+      }
+    }
+  },
+    "navbar": {
+      "home": "Inicio",
+      "setup": "Configuración",
+      "premium": "Premium",
+      "support": "Soporte",
+      "invite": "Obtener TempVoice",
+      "user": {
+        "login": "Iniciar sesión con Discord",
+        "logout": "Cerrar sesión",
+        "dashboard": "Abrir Panel",
+        "prompt": {
+          "description": "¿Te gustaría unirte a nuestro Discord?",
+          "button": {
+            "agree": "Sí, por favor",
+            "deny": "No, solo iniciar sesión"
+          }
+        }
+      }
+    },
+    "footer": {
+      "terms_of_service": "Términos de Servicio",
+      "privacy_policy": "Política de Privacidad",
+      "right_of_withdrawal": "Derecho de Desistimiento",
+      "legal_notice": "Aviso Legal",
+      "statistics": "Estadísticas",
+      "cookie": {
+        "description": "Este sitio web solo utiliza cookies esenciales para su funcionamiento.",
+        "button": "Aceptar"
+    }
+  }
+}
