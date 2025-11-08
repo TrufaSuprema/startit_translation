@@ -8,37 +8,37 @@
 # FILE: giveaways/remove_tag.py #
 #################################
 # on_guild_member_update
-185_862_897: "Please restore our server tag. Failing to do so in {0} will **remove you from the giveaway** and you will never be able to join ever again."
+185_862_897: "Por favor, restaura la etiqueta del servidor. Si no lo haces en {0}, **serás eliminado del sorteo** y no podrás participar nunca más."
 
 ###########################################
 # FILE: giveaways/giveaway_participate.py #
 ###########################################
 # on_message_component_giveaway
-185_001_648: "You haven't set the server tag. Do it in the user settings -> Profiles. {0}"
-185_178_362: "You are excluded from this event."
+185_001_648: "No has configurado la etiqueta del servidor. Hazlo en Configuración de usuario -> Perfiles. {0}"
+185_178_362: "Estás excluido de este evento."
 
 ###############################
 # FILE: activity/cmd_stats.py #
 ###############################
 # stats_page
-185_642_706: "- **Total messages:** 
+185_642_706: "- **Mensajes Totales:** 
   - {0}
-- **Messages in last 24 hours:** 
+- **Mensajes en las últimas 24 hours:** 
   - {1} ({2})
-- **Messages in last week:** 
+- **Mensajes en la última semana:** 
   - {3} ({4})
 - **Messages in last month: **
   - {5} ({6})"
 185_299_535: "Timezone: {0}"
 
 # get_embed_title
-185_197_367: "Daily message leaderboard"
-185_279_945: "Weekly message leaderboard"
-185_553_373: "Monthly message leaderboard"
-185_273_401: "Channel message leaderboard"
-185_172_530: "User message leaderboard"
-185_582_011: "Total message leaderboard"
-185_747_694: "Guild message leaderboard"
+185_197_367: "Ranking diario de mensajes"
+185_279_945: "Ranking semanal de mensajes"
+185_553_373: "Ranking mensual de mensajes"
+185_273_401: "Ranking por canal"
+185_172_530: "Ranking por usuario"
+185_582_011: "Ranking total de mensajes"
+185_747_694: "Ranking por servidor"
 
 # stats
 185_880_308: "## User message leaderboards
@@ -56,231 +56,190 @@
 # FILE: autoresponder/replies.py #
 ##################################
 # action
-185_946_575: "Message from {0}"
+185_946_575: "Mensaje de {0}"
 
 ############################
 # FILE: images/cmd_nasa.py #
 ############################
 # nasa
-185_719_907: "Random NASA imaga"
-185_408_281: "More info"
+185_719_907: "Imagen de NASA aleatoria"
+185_408_281: "Más Información"
 
 #######################################
 # FILE: moderation/cmd_warns_clear.py #
 #######################################
 # warns_clear
-185_234_606: "Database couldn't process the request. The warning_id is probably too big. If you are trying to clear all warnings, use command: `warns clear-all`."
-
+185_234_606: "La base de datos no pudo procesar la solicitud. El warning_id probablemente es demasiado grande. Si intentas borrar todas las advertencias, usa el comando: `warns clear-all`."
 #####################################
 # FILE: moderation/cmd_mass_role.py #
 #####################################
 # mass_role
-185_303_884: "Mass Role Management"
-185_558_207: "This command allows you to add or remove a role from multiple users at once. 
- - Use `{0}massrole add <existing role> <new role>` to add new role to users with the existing role. 
- - Use `{0}massrole remove <existing role> <new role>` to remove the new role from users with the existing role. 
- - Use `{0}massrole add everyone <role>` to add a role to all server members. 
- - Use `{0}massrole status` to check the current status of the mass role queue."
+185_303_884: "Gestión Masiva de Roles"
+185_558_207: "Este comando te permite añadir o quitar roles de varios usuarios a la vez. 
+ - Usa `{0}massrole add <existing role> <new role>` para añadir un rol a miembros que ya tengan otro rol. 
+ - Usa `{0}massrole remove <existing role> <new role>` para remover un rol a todos los miembros del servidor. 
+ - Usa `{0}massrole add everyone <role>` para añadir un rol a todos los miembros del servidor. 
+ - Usa `{0}massrole status` para revisar el estado actual de la cola de roles."
 
 # mass_role_add
-185_483_989: "Added {0} users to queue for receiving the role <@&{1}>"
+185_483_989: "Añadidos {0} usuarios a la cola para recibir el rol <@&{1}>"
 
 # mass_role_remove
-185_956_789: "Added {0} users to queue for revoking the role <@&{1}>"
+185_956_789: "Añadidos {0} usuarios a la cola para retirar el rol <@&{1}>"
 
 # mass_role_action
-185_166_862: "You cannot use the everyone role in the second argument."
+185_166_862: "No puedes usar @everyone en el segundo argumento."
 
 # mass_role_status
-185_958_295: "There are currently {} users in the queue for mass role changes."
+185_958_295: "Hay actualmente {} en la cola para cambios masivos de rol."
 
 ###############################
 # FILE: tools/cmd_reminder.py #
 ###############################
 # on_message_component_reminder_snooze
-185_430_111: "Snooze"
-185_608_812: "Time"
+185_430_111: "Posponer"
+185_608_812: "Tiempo"
 185_099_713: "1h 30m"
 
 # on_message_component_reminder_snooze_modal
-185_705_314: "Invalid time format. Use `1h 30m` or `1d 2h 3m`"
+185_705_314: "Formato de tiempo inválido. Usa `1h 30m` o `1d 2h 3m`"
 
 # send_embed
-185_992_913: "There are no reminders set. Use `{0}reminder set 5m text` to set one"
-185_299_469: "#{0}: Reminder {1}:
+185_992_913: "No hay recordatorios configurados. Usa `{0}reminder set 5m texto` para crear uno"
+185_299_469: "#{0}: Recordatorio {1}:
 > {2}"
-185_324_452: "Reminders"
-185_445_100: "Set reminder using: {0}reminder set 5m text"
+185_324_452: "Recordatorios"
+185_445_100: "Configura un recordatorio usando: {0}reminder set 5m text"
 
 # reminder_del
-185_015_031: "Please provide an #ID from `{0}reminder list` command or use `all` to delete all reminders"
-185_137_012: "All reminders deleted"
-185_738_103: "Reminder #{0} deleted"
+185_015_031: "Proporciona un #ID del comando `{0}reminder list` o usa `all` para borrar todos los recordatorios"
+185_137_012: "Todos los recordatorios eliminados"
+185_738_103: "Recordatorio #{0} eliminado"
 
 # reminder_set
-185_194_781: "You will be reminded in {0} about:"
+185_194_781: "Se te recordará en {0} sobre:"
 
 # set_reminder
-185_465_541: "<@{0}>: Reminder set. You will be reminded in {1} on this channel"
-185_201_549: "<@{0}>: Reminder set. You will be reminded in {1} on DM"
+185_465_541: "<@{0}>: Recordatorio configurado. Se te recordará en {1} en este canal"
+185_201_549: "<@{0}>: Recordatorio configurado. Se te recordará en {1} por DM"
 
 # on_task_cmd_reminder
-185_271_311: "Reminder <@{0}>:
->>> {1}"
-185_615_982: "Snooze"
+185_271_311: "Recordatorio <@{0}>:\n>>> {1}"
+185_615_982: "Posponer"
 
 #############################
-# FILE: tools/cmd_whoiam.py #
+# ARCHIVO: tools/cmd_whoiam.py
 #############################
 # whoiam
-185_570_175: "Text game: I’ve sent you private message with a random character. Let other people try to guess who it is by asking you yes/no questions. The game continues until someone guesses the character correctly. Good luck!"
+185_570_175: "Juego de texto: Te he enviado un mensaje privado con un personaje aleatorio. Deja que otros intenten adivinar quién es haciendo preguntas de sí/no. El juego continúa hasta que alguien lo adivine correctamente. ¡Buena suerte!"
 
 #############################
-# FILE: tools/cmd_lookup.py #
+# ARCHIVO: tools/cmd_lookup.py
 #############################
-# cmd_lookup_user
-185_941_999: "The user does not carry the tag of this server."
-185_617_889: "Tag seniority"
+185_941_999: "El usuario no tiene la etiqueta de este servidor."
+185_617_889: "Antigüedad de la etiqueta"
 
 ##############################
-# FILE: levels/cmd_toplvl.py #
+# ARCHIVO: levels/cmd_toplvl.py
 ##############################
-# toplvl
-185_274_612: "-# Ranking was refreshed {0}. Next {1}."
+185_274_612: "-# El ranking fue actualizado {0}. Próxima actualización {1}."
 
 ############################
-# FILE: core/cmd_server.py #
+# ARCHIVO: core/cmd_server.py
 ############################
-# server
-185_291_527: "Server not found"
-
-# add_players_field
-185_975_092: "Players"
-
-# set_embed_title
-185_861_239: "Map"
+185_291_527: "Servidor no encontrado"
+185_975_092: "Jugadores"
+185_861_239: "Mapa"
 185_921_238: "Ping"
-
-# add_player_list_fields
-185_327_709: "Players"
+185_327_709: "Jugadores"
 
 ###############################
-# FILE: automations/events.py #
+# ARCHIVO: automations/events.py
 ###############################
-# on_message_component_automations_modal
-185_148_996: "The form you are trying to open has already been submitted or expired"
-185_992_432: "Formularz"
+185_148_996: "El formulario que intentas abrir ya fue enviado o ha expirado"
+185_992_432: "Formulario"
 
 ############################
-# FILE: economy/cmd_rob.py #
+# ARCHIVO: economy/cmd_rob.py
 ############################
-# rob
-185_593_462: "{}% chance of success robbing — Your net worth must be lower than the target's wallet."
+185_593_462: "{}% de probabilidad de éxito al robar — Tu patrimonio debe ser menor que el saldo de la víctima."
 
 #####################################
-# FILE: economy/cmd_stock_market.py #
+# ARCHIVO: economy/cmd_stock_market.py
 #####################################
-# check_disabled
-185_061_620: "Stock market is disabled"
-
-# stock_market_sell
-185_804_556: "You just bought those stocks, please wait {0} before you sell them."
-
-# economy_stockmarket_remove
-185_368_132: "Removed {0} **{1}** from {2} account"
-
-# backpack
-185_043_983: "Purchase price: {}Market price: {}Profit: {}"
+185_061_620: "El mercado de valores está desactivado"
+185_804_556: "Acabas de comprar esas acciones, espera {0} antes de venderlas."
+185_368_132: "Se eliminaron {0} **{1}** de la cuenta de {2}"
+185_043_983: "Precio de compra: {} Precio de mercado: {} Ganancia: {}"
 
 ##############################
-# FILE: economy/cmd_trade.py #
+# ARCHIVO: economy/cmd_trade.py
 ##############################
-# generate_embed
-185_188_944: "Money: {0}"
-185_791_965: "Trade completed"
-185_760_774: "Add money to the trade"
-185_622_223: "Remove money from the trade"
-
-# trade_start
-185_747_395: "You already have a trade with this user in progress - <#{}>."
-185_892_064: "You can't start a trade in a thread."
-185_884_652: "Trade started in <#{}>"
-
-# get_trade
-185_377_197: "You have to start trade first (with {0} command)"
-
-# trade_add_money
-185_322_818: "You don't have enough money."
-
-# trade_rem_money
-185_456_777: "Error: You've provided too much money"
+185_188_944: "Dinero: {0}"
+185_791_965: "Intercambio completado"
+185_760_774: "Añadir dinero al intercambio"
+185_622_223: "Quitar dinero del intercambio"
+185_747_395: "Ya tienes un intercambio en curso con este usuario - <#{}>."
+185_892_064: "No puedes iniciar un intercambio en un hilo."
+185_884_652: "Intercambio iniciado en <#{}>"
+185_377_197: "Debes iniciar el intercambio primero (con el comando {0})"
+185_322_818: "No tienes suficiente dinero."
+185_456_777: "Error: Has ingresado demasiado dinero"
 
 ##################################
-# FILE: economy/cmd_blackjack.py #
+# ARCHIVO: economy/cmd_blackjack.py
 ##################################
-# on_task_cancel_blackjack
-185_756_240: "Timed out."
+185_756_240: "Tiempo agotado."
 
 ############################
-# FILE: economy/cmd_eco.py #
+# ARCHIVO: economy/cmd_eco.py
 ############################
-# economy_set
-185_515_284: "**Role:** {0}
-**Amount:** Cash: ``{1}`` | Bank: ``{2}``
-**Users:** {3}
-**Channel:** {4}
-**Reason:** {5}: /eco set command"
-
-# economy_stockmarket_clear
-185_059_093: "Stocks of user {0} has been cleared."
+185_515_284: "**Rol:** {0}\n**Cantidad:** Efectivo: ``{1}`` | Banco: ``{2}``\n**Usuarios:** {3}\n**Canal:** {4}\n**Motivo:** {5}: comando /eco set"
+185_059_093: "Las acciones del usuario {0} han sido eliminadas."
 
 #########################
-# FILE: economy/case.py #
+# ARCHIVO: economy/case.py
 #########################
-# on_task_open_case
-185_589_193: "You hit: "
-185_893_126: " - Nothing - empty slot"
-185_130_725: "The chance of drawing this item has been hidden."
+185_589_193: "Has obtenido: "
+185_893_126: " - Nada - espacio vacío"
+185_130_725: "La probabilidad de obtener este objeto ha sido ocultada."
 
 #############################
-# FILE: tickets/on_leave.py #
+# ARCHIVO: tickets/on_leave.py
 #############################
-# on_guild_member_remove
-185_268_176: "Ticket closed because the author left the server."
+185_268_176: "Ticket cerrado porque el autor salió del servidor."
 
 ################################
-# FILE: tickets/on_inactive.py #
+# ARCHIVO: tickets/on_inactive.py
 ################################
-# on_task_ticketing_close
-185_560_509: "Ticket closed because there was no activity for {0}"
+185_560_509: "Ticket cerrado por inactividad durante {0}"
 
 ############################
-# FILE: tickets/archive.py #
+# ARCHIVO: tickets/archive.py
 ############################
-# on_channel_delete
-185_554_175: "Closed by"
+185_554_175: "Cerrado por"
 
 #################################################
 # FILE: automations/utils_actions/open_modal.py #
 #################################################
 # open_modal
-185_739_148: "Formularz"
-185_813_008: "Open form"
+185_739_148: "Formulario"
+185_813_008: "Abrir Formulario"
 
 ###################################################
 # FILE: automations/utils_actions/send_message.py #
 ###################################################
 # __post_message
-185_637_441: "Message from {0}"
+185_637_441: "Mensaje de {0}"
 
 ############################################
 # FILE: moderation/utils_actions/unmute.py #
 ############################################
 # unmute_user
-185_912_666: "This action had no effect. Provided invalid user or they are not muted."
+185_912_666: "Esta acción no tuvo efectos. Usuario inválido o no está silenciado."
 
 ##########################################
 # FILE: automod/utils_actions/message.py #
 ##########################################
 # action_message
-185_256_339: "Message from {0}"
+185_256_339: "Mensaje de {0}"
